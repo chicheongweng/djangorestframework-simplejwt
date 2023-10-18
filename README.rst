@@ -32,3 +32,24 @@ Translations
 ------------
 
 Contribute translations directly with PRs or via inlang https://inlang.com/editor/github.com/jazzband/djangorestframework-simplejwt
+
+
+Installation and Test
+---------------------
+
+cd [project directory]
+
+mkvirtualenv simplejwt
+
+workon simplejwt
+
+pip install --upgrade pip
+
+pip install .
+
+pip install -e .[test,doc,lint,dev,python-jose,crypto]
+
+pip install pytest
+
+pytest tests
+
