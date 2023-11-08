@@ -53,3 +53,4 @@ pip install pytest
 
 pytest tests
 
+pytest -s tests (don't suppress printouts in test cases)
